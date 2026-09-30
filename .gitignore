@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Python / virtual env
+.venv/
+__pycache__/
+*.pyc
+
+# Editor & tooling
+.codex-plugin/
+.vscode/
+
+# Workspace-only content (không thuộc website CNC)
+.github/
+docs/
+hocnext/
+reports/
+skills/
+AGENTS.md
+
+# Reports & tài liệu nội bộ
+*.pdf
+make_ai_report_v2.py
+make_ai_summary.py
+
+# OS files
+.DS_Store
+Thumbs.db

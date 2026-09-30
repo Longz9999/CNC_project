@@ -1,0 +1,12 @@
+{
+  "name": "mekong-cnc-supply",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static Vietnamese CNC tooling storefront",
+  "scripts": {
+    "test": "node src/catalog.test.mjs",
+    "dev": "python -m http.server 4173",
+    "start": "python -m http.server 4173"
+  }
+}
